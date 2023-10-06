@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+.dashboard{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dash-heading{
+    color:var(--white);
+    font-weight: 300;
+    font-size: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dash-heading span{
+    color:var(--extraLight);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pdf-upload{
+    display: flex;
+    align-items: center;
+    gap:2rem;
 }
-
-.App-link {
-  color: #61dafb;
+.import-btn{
+    padding:0.8rem 1.5rem;
+    background-color: var(--extraLight);
+    color: var(--blue);
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.import-btn{
+    background-color: var(--extraLight);
 }

@@ -1,0 +1,16 @@
+.drop-zone {
+    width: 400px;
+    height: 30px;
+    display:flex;
+    border: 2px dashed var(--white);
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .drag-over {
+    background-color: var(--lightBlue);
+  }
