@@ -17,7 +17,7 @@ function QuestionInput({ result }) {
   return (
     <div className="QuestionAnswer">
       <textarea
-        cols="50"
+        cols="40"
         placeholder="Enter your Question here"
         value={question}
         onChange={(e) => setQuestion(e.target.value)}
@@ -28,7 +28,7 @@ function QuestionInput({ result }) {
         <div className="answer">
           <h2>Search result :</h2>
           <div className="answer-para">
-            {answer}
+            <p>{answer}</p>
           </div>
         </div>
        )} 

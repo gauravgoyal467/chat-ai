@@ -1,16 +1,33 @@
 .drop-zone {
-    width: 400px;
-    height: 30px;
-    display:flex;
-    border: 2px dashed var(--white);
-    border-radius: 1rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    cursor: pointer;
+  width: 400px;
+  height: 30px;
+  display: flex;
+  border: 2px dashed var(--white);
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.drag-over {
+  background-color: var(--lightBlue);
+}
+
+@media only screen and (max-width: 700px) {
+  .drop-zone {
+    width: 300px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .drop-zone {
+    width: 250px;
   }
   
-  .drag-over {
-    background-color: var(--lightBlue);
-  }
+  .drop-zone p {
+    font-size: 0.9rem;
+   }
+}
